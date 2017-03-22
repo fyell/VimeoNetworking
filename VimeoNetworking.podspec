@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/fyell/VimeoNetworking.git", :tag => s.version.to_s }
   s.source_files  = "VimeoNetworking/Sources/**/*.{h,m,swift}"
   s.resources = "VimeoNetworking/Resources/**/*.*"
+  s.private_header_files = 'VimeoNetworking/Sources/Private/*.{h,m,swift}'
 
   s.dependency 'AFNetworking', '3.1.0'
+  s.dependency 'VimeoCommon'
 end
