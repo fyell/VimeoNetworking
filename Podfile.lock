@@ -14,21 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - VimeoNetworking (0.0.1):
+  - VimeoCommon (0.1.0)
+  - VimeoNetworking (0.0.2):
     - AFNetworking (= 3.1.0)
+    - VimeoCommon
 
 DEPENDENCIES:
   - AFNetworking (= 3.1.0)
+  - VimeoCommon (from `Submodules/VimeoCommon`)
   - VimeoNetworking (from `../VimeoNetworking`)
 
 EXTERNAL SOURCES:
+  VimeoCommon:
+    :path: Submodules/VimeoCommon
   VimeoNetworking:
     :path: "../VimeoNetworking"
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  VimeoNetworking: 17f8d451e4a168044f619315d0cd821669676e67
+  VimeoCommon: 7a7d7fa70d77b7eb4cffb2408bd5982e46982abd
+  VimeoNetworking: 0e9d75e689e5b5e3892e8e7fc9041068ad729f3e
 
-PODFILE CHECKSUM: 9f9867bb3720cc28bbfeab258d411b2ca6ee7bef
+PODFILE CHECKSUM: 347f66b17045491623b390356ec22895123fe614
 
 COCOAPODS: 1.1.1

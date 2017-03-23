@@ -8,9 +8,6 @@
 
 extension NSError
 {
-    private static let VimeoUserMessageKey = "error"
-    private static let VimeoDeveloperMessageKey = "developer_message"
-    
     func serverErrorCode() -> Int?
     {
         var code = self.vimeoServerErrorCode
@@ -26,20 +23,5 @@ extension NSError
     func localErrorCode() -> Int?
     {
         return (self.userInfo[VimeoErrorKey.VimeoErrorCode.rawValue] as? NSNumber)?.integerValue
-    }
-    
-    func vimeoErrorDomain() -> String?
-    {
-        return self.userInfo[VimeoErrorKey.VimeoErrorDomain.rawValue] as? String
-    }
-    
-    func vimeoUserMessage() -> String?
-    {
-        return self.errorResponseBodyJSON?[self.dynamicType.VimeoUserMessageKey] as? String
-    }
-    
-    func vimeoDeveloperMessage() -> String?
-    {
-        return self.errorResponseBodyJSON?[self.dynamicType.VimeoDeveloperMessageKey] as? String
     }
 }

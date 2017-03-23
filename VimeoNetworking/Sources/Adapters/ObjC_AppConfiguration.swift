@@ -7,13 +7,12 @@
 //
 
 import UIKit
+import VimeoCommon
 
 class ObjC_AppConfiguration: NSObject
 {
     private let swiftSurrogate: AppConfiguration
-    
-    static let DefaultConfiguration = ObjC_AppConfiguration(appConfiguration: AppConfiguration.DefaultConfiguration)
-    
+        
     init(appConfiguration: AppConfiguration)
     {
         self.swiftSurrogate = appConfiguration

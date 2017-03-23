@@ -1,3 +1,6 @@
 [submodule "VimeoCommon"]
 	path = VimeoCommon
 	url = git@github.vimeows.com:MobileApps/VimeoCommon.git
+[submodule "Submodules/VimeoCommon"]
+	path = Submodules/VimeoCommon
+	url = git@github.vimeows.com:MobileApps/VimeoCommon.git

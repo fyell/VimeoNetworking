@@ -26,6 +26,7 @@
 
 import UIKit
 import VimeoNetworking
+import VimeoCommon
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate

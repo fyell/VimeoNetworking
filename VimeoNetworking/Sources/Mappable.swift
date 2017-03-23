@@ -25,6 +25,7 @@
 //
 
 import Foundation
+import VimeoCommon
 
 private let DefaultModelKeyPath = "data"
 

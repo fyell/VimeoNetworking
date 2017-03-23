@@ -25,6 +25,7 @@
 //
 
 import Foundation
+import VimeoCommon
 
 /// `Request` returning a single `VIMPolicyDocument`
 public typealias PolicyDocumentRequest = Request<VIMPolicyDocument>

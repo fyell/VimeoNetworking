@@ -25,6 +25,7 @@
 //
 
 import UIKit
+import VimeoCommon
 
 class MasterViewController: UITableViewController
 {

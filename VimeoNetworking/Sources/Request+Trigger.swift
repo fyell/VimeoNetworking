@@ -6,6 +6,8 @@
 //
 //
 
+import VimeoCommon
+
 extension Request
 {
     private static var TriggersURI: String { return "/triggers" }

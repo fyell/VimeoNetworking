@@ -6,6 +6,8 @@
 //
 //
 
+import VimeoCommon
+
 public extension Request
 {
     /// `Request` that returns a single `VIMPicture`

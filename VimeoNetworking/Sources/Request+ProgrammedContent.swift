@@ -25,6 +25,7 @@
 //
 
 import Foundation
+import VimeoCommon
 
 /// `Request` returning an array of `VIMVideo`
 public typealias CinemaContentRequest = Request<[VIMProgrammedContent]>

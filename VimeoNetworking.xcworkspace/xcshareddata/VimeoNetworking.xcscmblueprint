@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C3D71035A96924D900556ABAF7AF12CFE47E2A44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C3D71035A96924D900556ABAF7AF12CFE47E2A44" : 9223372036854775807,
+    "5E4497C69A4CB319B8684BB463888EC6CB45821B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FFF4B755-7E98-4A60-A942-0C3EEDFD1784",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C3D71035A96924D900556ABAF7AF12CFE47E2A44" : "VimeoNetworking\/",
+    "5E4497C69A4CB319B8684BB463888EC6CB45821B" : "VimeoNetworking\/Submodules\/VimeoCommon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VimeoNetworking",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VimeoNetworking.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.vimeows.com:MobileApps\/VimeoCommon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E4497C69A4CB319B8684BB463888EC6CB45821B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:fyell\/VimeoNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3D71035A96924D900556ABAF7AF12CFE47E2A44"
+    }
+  ]
+}

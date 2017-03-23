@@ -25,6 +25,7 @@
 //
 
 import Foundation
+import VimeoCommon
 
 /// `AccountStore` handles saving and loading authenticated accounts securely using the keychain
 final class AccountStore

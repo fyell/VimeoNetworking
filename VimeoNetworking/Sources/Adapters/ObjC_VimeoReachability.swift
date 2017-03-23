@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import VimeoNetworking
 
 class ObjC_VimeoReachability: NSObject
 {

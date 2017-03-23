@@ -25,6 +25,7 @@
 //
 
 import Foundation
+import VimeoCommon
 
 /// `Request` that returns a single `VIMChannel`
 public typealias ChannelRequest = Request<VIMChannel>

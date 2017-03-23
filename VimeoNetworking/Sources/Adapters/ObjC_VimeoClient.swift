@@ -7,13 +7,12 @@
 //
 
 import UIKit
+import VimeoCommon
 
 class ObjC_VimeoClient: NSObject
 {
     let swiftSurrogate: VimeoClient
 
-    static let sharedClient = ObjC_VimeoClient(client: VimeoClient.sharedClient)
-    
     // MARK: Initializers
     
     init(client: VimeoClient)
